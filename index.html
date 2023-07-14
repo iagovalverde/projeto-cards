@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartoons</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Cartoons</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a href="#acao" class="nav-link active">Ação</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#humor" class="nav-link">Humor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#suspense" class="nav-link">Suspense</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel-imagens">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="images/goku.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="images/superman.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="images/simpsons.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="images/tom-jerry.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="images/scooby.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="images/puro-osso.jpg" class="d-block w-100">
+                </div>
+            </div>
+            <button class="carousel-control-prev d-none d-md-block" data-bs-target="#carousel-imagens" data-bs-slide="prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next d-none d-md-block" data-bs-target="#carousel-imagens" data-bs-slide="next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button class="active" type="button" data-bs-target="#carousel-imagens" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-imagens" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-imagens" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carousel-imagens" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#carousel-imagens" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#carousel-imagens" data-bs-slide-to="5"></button>
+            </div>
+        </div>
+        <div data-bs-spy="scroll" data-bs-target="#menu">
+            <section id="acao">
+                <h2>Ação</h2>
+                <nav class="nav nav-tabs">
+                    <button type="button" class="nav-link active" data-bs-toggle="tab" data-bs-target="#aba1">
+                        Anime
+                    </button>
+                    <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#aba2">
+                        Perseguição
+                    </button>
+                    <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#aba3">
+                        Luta
+                    </button>
+                </nav>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="aba1">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-lg-4">
+                                <div class ="card text-bg-dark">
+                                    <img src="images/dbz.png" alt="Logo anime Dragon Ball Z">
+                                    <div class="card-img-overlay">
+                                        <a href="#" class="btn btn-primary">Assistir</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-lg-4">
+                                <div class ="card text-bg-dark">
+                                    <img src="images/naruto.png" alt="Logo anime Naruto">
+                                    <div class="card-img-overlay">
+                                        <a href="#" class="btn btn-primary">Assistir</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-lg-4">
+                                <div class ="card text-bg-dark">
+                                    <img src="images/tokyo-revengers.png" alt="Logo anime Tokyo Revengers">
+                                    <div class="card-img-overlay">
+                                        <a href="#" class="btn btn-primary">Assistir</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="aba2">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-lg-4">
+                                <div class ="card text-bg-dark">
+                                    <img src="images/tom-jerry-show.png" alt="Logo desenho animado Tom e Jerry">
+                                    <div class="card-img-overlay">
+                                        <a href="#" class="btn btn-primary">Assistir</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-lg-4">
+                                <div class ="card text-bg-dark">
+                                    <img src="images/roadrunner.png" alt="Logo desenho animado Papa-Leguas">
+                                    <div class="card-img-overlay">
+                                        <a href="#" class="btn btn-primary">Assistir</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-lg-4">
+                                <div class ="card text-bg-dark">
+                                    <img src="images/picapau.png" alt="Logo desenho animado Pica Pau">
+                                    <div class="card-img-overlay">
+                                        <a href="#" class="btn btn-primary">Assistir</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="aba3">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-lg-4">
+                                <div class ="card text-bg-dark">
+                                    <img src="images/justice-league.png" alt="Logo desenho animado Liga da Justiça">
+                                    <div class="card-img-overlay">
+                                        <a href="#" class="btn btn-primary">Assistir</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-lg-4">
+                                <div class ="card text-bg-dark">
+                                    <img src="images/mucha-lucha.png" alt="Logo desenho animado Mucha Lucha">
+                                    <div class="card-img-overlay">
+                                        <a href="#" class="btn btn-primary">Assistir</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-lg-4">
+                                <div class ="card text-bg-dark">
+                                    <img src="images/tres-espias.png" alt="Logo desenho animado Três Espiãs Demais">
+                                    <div class="card-img-overlay">
+                                        <a href="#" class="btn btn-primary">Assistir</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="humor">
+                <h2>Humor</h2>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-lg-4">
+                        <div class ="card text-bg-dark">
+                            <img src="images/rick-morty.png" alt="Logo desenho animado Rick and Morty">
+                            <div class="card-img-overlay">
+                                <a href="#" class="btn btn-primary">Assistir</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-lg-4">
+                        <div class ="card text-bg-dark">
+                            <img src="images/billy-mandy.png" alt="Logo desenho animado Billy and Mandy">
+                            <div class="card-img-overlay">
+                                <a href="#" class="btn btn-primary">Assistir</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-lg-4">
+                        <div class ="card text-bg-dark">
+                            <img src="images/the-simpsons.png" alt="Logo desenho animado The Simpsons">
+                            <div class="card-img-overlay">
+                                <a href="#" class="btn btn-primary">Assistir</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="suspense">
+                <h2>Suspense</h2>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-lg-4">
+                        <div class ="card text-bg-dark">
+                            <img src="images/scooby-doo.png" alt="Logo desenho animado Scooby-Doo">
+                            <div class="card-img-overlay">
+                                <a href="#" class="btn btn-primary">Assistir</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-lg-4">
+                        <div class ="card text-bg-dark">
+                            <img src="images/courage.png" alt="Logo desenho animado Coragem, o cão covarde">
+                            <div class="card-img-overlay">
+                                <a href="#" class="btn btn-primary">Assistir</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-lg-4">
+                        <div class ="card text-bg-dark">
+                            <img src="images/pink-panther.png" alt="Logo desenho animado Pantera Cor-de-Rosa">
+                            <div class="card-img-overlay">
+                                <a href="#" class="btn btn-primary">Assistir</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+    </div>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
