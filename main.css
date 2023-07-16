@@ -3,7 +3,12 @@ body {
 }
 
 header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
     margin-bottom: 16px;
+    background-color: #99f7aaa9;
 }
 
 h1 {
@@ -45,6 +50,10 @@ h2 {
 
 .tab-content img {
     height: 600px;
+}
+
+section {
+    padding-top: 70px;
 }
 
 .card {
